@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="testitems">
+        <item >@string/item_TouchPanel</item>
+        <item >@string/item_VersionInfo</item>
+         <item >@string/item_Battery</item>
+        <item >@string/item_Loudspeaker</item>
+        <item >@string/item_Ringtone</item>
+        <item >@string/item_Headset</item>
+        <item >@string/item_Camera</item>
+        <item>@string/item_Flash</item>
+        <item >@string/item_KeyMotor</item>
+         <item >@string/item_LCD</item>
+    </string-array>
+    <!-- 测试类名 -->
+    <string-array name="testClassNames">
+        <item >com.malata.factorytest.item.TouchPanel</item>
+        <item >com.malata.factorytest.item.VersionInfo</item>
+        <item >com.malata.factorytest.item.BatteryCharged</item>
+        <item >com.malata.factorytest.item.Loudspeaker</item>
+        <item >com.malata.factorytest.item.Ringtone</item>
+        <item >com.malata.factorytest.item.Headset</item>
+        <item >com.malata.factorytest.item.CameraChange</item>
+        <item >com.malata.factorytest.item.FlashLed</item>
+        <item >com.malata.factorytest.item.KeyAndMotor</item>
+        <item >com.malata.factorytest.item.LCD</item>
+    </string-array>
+    
+</resources>

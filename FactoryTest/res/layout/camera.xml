@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/floralwhite" >
+ 
+ <FrameLayout
+     android:layout_width="fill_parent"
+     android:layout_height="0dip"
+     android:layout_weight="1" 
+     android:id="@+id/camera_preview">
+ </FrameLayout>
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/floralwhite" >
+
+     <TextView
+         android:id="@+id/camera_text"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_toRightOf="@+id/camera_finish"
+         android:background="@drawable/btn_fm_disable"
+         android:text="@string/_mainCamera_TAG"
+         android:gravity="center"
+         android:textColor="@color/black"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/camera_text1"
+         android:layout_width="80dp"
+         android:gravity="center"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/camera_finish"
+         android:layout_alignBottom="@+id/camera_finish"
+         android:layout_alignLeft="@+id/camera_text"
+         android:layout_alignParentRight="true"
+         android:background="@drawable/btn_fm_disable"
+         android:text="@string/_secondCamera_TAG"         
+         android:textColor="@color/black"
+         android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/camera_finish"
+            android:layout_width="98dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_capture"
+            android:maxHeight="32dp"
+            android:minHeight="24dip"
+            android:minWidth="24dip"
+            android:width="32dp" />
+
+        <Button
+            android:id="@+id/camera_change"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_above="@+id/camera_text2"
+            android:layout_alignRight="@+id/camera_text2"
+            android:layout_alignLeft="@+id/camera_text2"
+            android:background="@drawable/btn_camera"
+            android:text="@string/_main_second"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/camera_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/camera_finish"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@+id/camera_finish"
+            android:background="@drawable/btn_fm_disable"
+            android:gravity="center"
+            android:text="@string/_flash_TAG"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+     </RelativeLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3.0dip" 
+    android:background="@color/floralwhite">
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView 
+         android:text="@string/headset" 
+         android:textSize="30.0sp" 
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/black"
+         android:layout_centerInParent="true"
+         android:layout_alignParentTop="true"
+         android:gravity="center|bottom"
+         android:paddingBottom="4dp"
+         android:background="@drawable/title"/>
+    </RelativeLayout>
+       
+     <View android:layout_height="2dip"  
+             android:layout_marginTop="30dp"
+         	android:layout_width="fill_parent" 
+  			 android:background="@color/darksalmon" />  
+   <LinearLayout 
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView 
+             android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/headsetstate"  
+	        android:textSize="20.0sp"/>
+
+        <TextView
+            
+            android:id="@+id/headset_stae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            
+            android:background="@drawable/btn_fail"
+            android:text="@string/_ununited"
+            android:textSize="20.0sp" />
+       
+   </LinearLayout>
+   
+    <View android:layout_height="2dip"  
+        android:layout_marginTop="30dp"
+         android:layout_width="fill_parent" 
+  		 android:background="@color/darksalmon" />  
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+        <TextView 
+            android:layout_marginTop="10dp"
+	         android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+	         android:text="@string/_headset_mic_juge" 
+	         android:textSize="20.0sp"/>  
+   </LinearLayout>
+   
+   
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+        <TextView 
+             android:layout_marginTop="8dp"
+	         android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+	         android:text="@string/_speakToHeadsetMic" 
+	         android:textSize="20.0sp"/>  
+	    
+	     <Button 
+	         
+	         android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+	         android:id="@+id/headset_speak"
+	         android:layout_marginLeft="30dp"
+	         android:text="@string/_isNorml"
+	          android:textSize="20.0sp"
+   	         android:background="@drawable/btn_fail" />
+       
+   </LinearLayout>
+   
+        <View android:layout_height="2dip"  
+             android:layout_marginTop="15dp"
+         	android:layout_width="fill_parent" 
+  			 android:background="@color/darksalmon" />   
+	     <TextView 
+	          android:layout_marginTop="8dp"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/_pressHeadset" 	          
+	         android:textSize="20.0sp"/>  
+   
+  
+  <RelativeLayout 
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+      <TextView 
+          android:id="@+id/left_headset"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+           android:layout_toLeftOf="@+id/stop_headset"
+          android:layout_alignParentTop="true"
+       
+          android:background="@drawable/left_up"/>
+
+      <TextView
+          android:id="@+id/stop_headset"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+           android:layout_marginLeft="10dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerInParent="true"
+          android:background="@drawable/stop_up" />
+
+      
+      
+      <TextView
+          android:id="@+id/right_headset"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+           android:layout_marginLeft="10dp"
+          android:layout_alignParentTop="true"
+          android:layout_toRightOf="@+id/stop_headset"
+          android:background="@drawable/right_up" />
+      
+       
+  </RelativeLayout>
+  <!-- <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+      
+      <Button 
+	         
+	         android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+	         android:id="@+id/headset_record"
+	         android:layout_marginLeft="30dp"
+	         android:layout_gravity="center_horizontal"
+	         android:layout_centerInParent="true"
+	          android:textSize="20.0sp"
+   	         android:background="@drawable/btn_fm_disable" />
+      
+      
+  </RelativeLayout> -->
+</LinearLayout>

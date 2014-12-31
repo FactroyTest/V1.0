@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/floralwhite">
+    
+     <TextView android:text="@string/item_Battery"  
+	         	 android:textSize="30sp"
+	         	
+	         	 android:textColor="@color/black"
+	             android:layout_height="wrap_content" 
+	       		 android:layout_width="wrap_content"
+	       		 android:layout_marginTop="15dp"
+	       		 android:gravity="center"
+	       		 android:layout_gravity="center"
+         		 android:background="@drawable/title"/>
+	       		
+    <LinearLayout 
+        android:layout_marginTop="30dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal">
+	     <TextView android:text="@string/_batteryCharging"  
+	         	 android:textSize="20sp"
+	             android:layout_height="wrap_content" 
+	       		 android:layout_width="wrap_content"/>  
+	    <TextView android:id="@+id/textview_batteryCharging" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"
+	        android:text="@string/_charging"
+	        android:layout_marginLeft="20dip"
+	        android:textSize="20sp"
+	        android:background="@color/red"/>  
+	 </LinearLayout>
+        
+ 	<LinearLayout 
+ 	    android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_chargingVoltage" 
+	         android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>  
+	    <TextView android:id="@+id/_textview_chargingVoltage" 
+	        android:layout_marginLeft="20dip"
+	       android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:background="@color/lightcyan"
+	        android:textSize="20sp"/>  
+	  </LinearLayout>
+ 	
+ 	 <LinearLayout 
+ 	     android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_chargingCurrent"  
+	        android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>  
+	    <TextView android:id="@+id/_textview_chargingCurrent" 
+	        android:layout_marginLeft="20dip"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:background="@color/lightcyan"
+	        android:textSize="20sp"/>  
+	  </LinearLayout>
+	  
+ 	  <LinearLayout
+ 	      android:layout_width="match_parent"
+ 	      android:layout_height="wrap_content"
+ 	      android:layout_marginTop="15dip"
+ 	      android:orientation="horizontal" >
+ 	      <TextView
+ 	          android:layout_width="wrap_content"
+ 	          android:layout_height="wrap_content"
+ 	          android:text="@string/_level"
+ 	          android:textSize="20sp" />
+ 	      <TextView
+ 	          android:id="@+id/_textview_charginglevel"
+ 	          android:layout_width="fill_parent"
+ 	          android:layout_height="wrap_content"
+ 	          android:layout_marginLeft="20dip"
+ 	          android:background="@color/lightcyan"
+ 	          android:textSize="20sp" />
+ 	  </LinearLayout>
+	  
+ 	   <LinearLayout 
+ 	     android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_temp"  	         
+	         android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>  
+	    <TextView android:id="@+id/_textview_chargingtemp" 
+	        android:layout_marginLeft="20dip"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:background="@color/lightcyan"
+	        android:textSize="20sp"/>  
+	  </LinearLayout>
+	  
+ 	  <LinearLayout 
+ 	     android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_chargehealth"  
+	         android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>  
+	    <TextView android:id="@+id/_textview_charginghealth" 
+	        android:layout_marginLeft="20dip"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:background="@color/lightcyan"
+	        android:textSize="20sp"/>  
+	  </LinearLayout>
+	  
+ 	   <LinearLayout 
+ 	     android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_charged"  
+	         android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>
+	     <TextView
+	         android:id="@+id/_textview_chargingplugged"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="20dip"
+	         android:background="@color/lightcyan"
+	         android:textSize="20sp" />
+	  </LinearLayout>
+	  
+ 	   
+ 	   <LinearLayout
+ 	     android:layout_marginTop="15dip"
+         android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="horizontal" >
+	     <TextView android:text="@string/_uptime"  
+	         android:textSize="20sp"
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"/>
+	     <TextView
+	         android:id="@+id/uptime_text"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="20dip"
+	         android:background="@color/lightcyan"
+	         android:textSize="20sp" />
+	 </LinearLayout>
+</LinearLayout>

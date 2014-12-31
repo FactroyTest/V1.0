@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/floralwhite" >
+
+    <TextView
+        android:id="@+id/mic_tingtong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+         android:background="@drawable/title"
+        android:text="@string/_mic_tingtong"        
+        android:textColor="@color/black"
+        android:textSize="30.0dip" />
+    <Button
+        android:id="@+id/Mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_button"
+        android:textSize="30.0dip" />
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_main"
+        android:layout_below="@+id/button_main"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/btn_fail"
+        android:text="@string/_close"
+        android:textSize="30.0dip" />
+    <TextView
+        android:id="@+id/textView_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mic_tingtong"
+        android:layout_below="@+id/mic_tingtong"
+        android:layout_alignBottom="@+id/button_second"
+        android:layout_marginTop="166dp"
+        android:gravity="bottom"
+        android:text="@string/_second_mic"
+        android:textSize="35.0dip" />
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mic_tingtong"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_fm_sucess"
+        android:text="@string/_open"
+        android:textSize="30.0dip" />
+    <TextView
+        android:id="@+id/TextView_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_second"
+        android:layout_alignLeft="@+id/textView_second"
+        android:gravity="bottom"
+        android:text="@string/_mic_main"
+        android:textSize="35.0dip" />
+</RelativeLayout>

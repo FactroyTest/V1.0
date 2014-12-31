@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">工厂测试</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_auto_test">自动测试</string>
+    <string name="bt_manual_test">手动测试</string>
+    <string name="bt_test_report">测试报告</string>
+    <string name="bt_reboot">恢复出厂设置</string>
+	<string name="title_activity_manual_test">手工测试</string>
+    <string name="bt_pass">通过</string>
+    <string name="bt_fail">失败</string>
+	<!-- 测试项的名字 -->
+	<string name="item_KeyMotor">按键/马达</string>
+	<string name="item_TouchPanel">触摸屏</string>
+	<string name="item_Version_battery">版本信息&amp;电池</string>
+	<string name="item_LCD">触摸屏</string>
+	<string name="item_Gyroscope">陀螺仪</string>
+	<string name="item_Flash">闪光灯</string>
+	
+	<string name="item_VersionInfo">版本信息</string>
+	<string name="item_Battery">电池状态</string>
+	<string name="item_Loudspeaker">喇叭测试</string>
+	<string name="item_Ringtone">麦克风&amp;听筒</string>
+    
+       <string name="item_Camera">前后相机</string>
+       <string name="item_Headset">耳机测试</string>
+       <string name="_batteryCharging">充电变绿:</string>
+       <string name="_chargingVoltage">充电电压:</string>
+       <string name="_chargingCurrent">充电电流:</string>
+       <string name="_version">版本信息</string>
+       <string name="sw_ver_">软件版本号:</string>
+       <string name="barcode_">Barcode:</string>
+       <string name="imei1_">IMEI1:</string>
+       <string name="imie2_">IMIE2:</string>
+       <string name="bt_addr_">BT Addr:</string>
+       <string name="wifi_mac_">WIFI MAC:</string>
+       <string name="bulidtime_">BulidTime:</string>
+       <string name="_charging">充电变绿</string>
+       <string name="android_os">SDK版本:</string>
+       <string name="_main_mic">主麦克风</string>
+       <string name="_second_mic">副MIC</string>
+       <string name="_close">关闭</string>
+       <string name="_open">打开</string>
+       <string name="_record">录音</string>
+       <string name="headset">耳机</string>
+       <string name="_ununited">未连接</string>
+       <string name="headsetstate">耳机插入检测:</string>
+       <!-- 按键和马达测试名字 -->
+	<string name="volume_up">音量上</string>
+    <string name="volume_down">音量下</string>
+    <string name="power">电源</string>
+    <string name="menu">菜单</string>
+   	<string name="home">主页</string>
+   	<string name="back">后退</string>
+       <string name="devicemodel">手机型号:</string>
+       <string name="systemversion">Android版本：</string>
+       <string name="wifi_ip">WIFI IP:</string>
+       <string name="head_tip">请插入耳机进行测试！</string>
+       <string name="_chargehealth">健康状态:</string>
+       <string name="_level">电池电量:</string>
+       <string name="_temp">电池温度:</string>
+       <string name="_charged">充电方式:</string>
+       <string name="_mic_tingtong">麦克风和听筒</string>
+       <string name="_mainband">主板：</string>
+       <string name="_CPU">处理器：</string>
+       <string name="modem_version">Modem版本:</string>
+       <string name="_HardVersion">硬件版本号:</string>
+       <string name="_baseBand">基带版本：</string>
+       <string name="_firmwareVersion">固件版本:</string>
+       <string name="_operator">生产厂商:</string>
+       <string name="_brand_o">运营商:</string>
+       <string name="wifi_ip_text">WIFI IP:</string>
+       <string name="_loudSpeak_test">喇叭测试</string>
+       <string name="_headset_listen">耳机听歌</string>
+       <string name="_inHeadset">插入耳机</string>
+       <string name="_headset_loud">这时候外放</string>
+       <string name="_isNorml">是否正常</string>
+       <string name="_isNoVould">是否无声</string>
+       <string name="_loud_Music">外放听歌</string>
+       <string name="_noNorml">不正常</string>
+       <string name="_no">否</string>
+       <string name="_speakToHeadsetMic">耳麦讲话检测:</string>
+       <string name="_pressHeadset">耳机按键检测（变绿）:</string>
+       <string name="_mainCamera_TAG">主:拍照标志</string>
+       <string name="_secondCamera_TAG">副:拍照标志</string>
+       <string name="_flash_TAG">闪光标志</string>
+       <string name="_main_second">主副</string>
+       
+       <string name="baseband_version">Baseband version</string>
+       <string name="device_info_default">Unknown</string>
+   	<!-- 传感器 -->
+   	<string name="tv_gryo">陀螺仪</string>
+   	<string name="_mic_main">主MIC</string>
+   	<string name="_startRecord">开始录音</string>
+   	<string name="_headin">未插入</string>
+   	<string name="_serial">序列号:</string>
+   	<string name="_kernal">内核版本:</string>
+   	<string name="_uptime">开机时间:</string>
+   	<string name="_headset_mic_juge">请对着耳机MIC吹气，耳机听筒发声，并判断是否正常。</string>
+   	<string name="_FlashledTest">后闪测试</string>
+</resources>

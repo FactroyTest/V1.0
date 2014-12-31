@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@color/floralwhite">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/_loudSpeak_test"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/title"
+        android:textSize="30.0dip"/> 
+        
+    <View 
+         android:layout_height="6dip"
+         android:layout_width="fill_parent" 
+  		 android:background="@color/green" /> 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+	        android:id="@+id/textView_loudsp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:text="@string/_loud_Music"
+	        android:textSize="30sp" />
+        <Button
+            android:layout_marginTop="18dp"
+	        android:id="@+id/loudbutton"
+	        android:layout_marginLeft="30dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_button"
+	        android:text="@string/_isNorml" />
+    </LinearLayout>
+    
+    <View android:layout_height="4dip"
+        android:layout_marginTop="15dp"  
+         android:layout_width="fill_parent" 
+  		 android:background="@color/darksalmon" /> 
+  		 
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <TextView
+	        android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+	        android:id="@+id/textView_chaear"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_inHeadset"
+	        android:textSize="30sp" />
+	    <TextView 
+	        android:id="@+id/headset_states"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_headin"
+	        android:layout_marginTop="9dp"
+	        android:layout_marginLeft="30dp"
+	        android:gravity="center"
+	        android:background="@drawable/btn_fm_fail"/>
+     </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <TextView
+	        android:layout_marginLeft="44dp"
+            android:layout_marginTop="15dp"
+	        android:id="@+id/textView_ear"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_headset_listen"
+	        android:textSize="20sp" />
+	    <Button
+	        android:id="@+id/earbutton"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginLeft="46dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="54dp"
+	        android:background="@drawable/btn_button"
+	        android:text="@string/_isNorml" />
+	  
+      </LinearLayout>
+     
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <TextView
+	         android:layout_marginLeft="44dp"
+            android:layout_marginTop="15dp"
+	        android:id="@+id/textView_loudsp1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_headset_loud"
+	        android:textSize="20sp" />
+	     <Button
+	        android:id="@+id/button_loudtip"
+	          android:layout_marginTop="8dp"
+	          android:layout_marginLeft="26dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/_isNoVould"
+	        android:background="@drawable/btn_button"/>
+      </LinearLayout>
+      
+      <View 
+         android:layout_height="6dip"
+         android:layout_marginTop="15dp"  
+         android:layout_width="fill_parent" 
+  		 android:background="@color/green" /> 
+     
+</LinearLayout>
